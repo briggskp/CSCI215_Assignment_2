@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Process Text</title>
+</head>
+<body>
+    <div id="input">
+        <p> Insert some text: </p>
+        <input type="Text" name="inputText">
+    </div>
+
+    <input type="button" onclick="processText()" value="Process Me!">
+    <div id="output">
+        <p>Your result: </p>
+        <textarea id="outText"> </textarea>
+    </div>
+
+
+    <script>
+
+        processText(inputText)
+        {
+           var inText = document.getElementById("inputText");
+           alert(inText);
+        }
+    </script>
+</body>
+</html>
